@@ -10,6 +10,6 @@ namespace NorthwindConsole.Models
         public string CategoryName { get; set; }
         public string Description { get; set; }
 
-        public virtual List<Product> Product { get; set; }
+        public virtual List<Product> Products { get; set; }
     }
 }

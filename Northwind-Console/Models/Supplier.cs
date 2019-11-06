@@ -16,6 +16,6 @@ namespace NorthwindConsole.Models
         public string Phone { get; set; }
         public string Fax { get; set; }
 
-        public virtual List<Product> Product { get; set; }
+        public virtual List<Product> Products { get; set; }
     }
 }
